@@ -1,6 +1,6 @@
 -- Imports
 local path = require("fzf-lua.path")
-local builtin = require("lvim-file-browser.builtin")
+local builtin = require("fzf-lua.previewer.builtin")
 
 -- Previewer
 local FileBrowserPreviewer = builtin.buffer_or_file:extend()
